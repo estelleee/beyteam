@@ -9,6 +9,25 @@
     <link href='css/main.css' rel='stylesheet'>
     <!-- make sure website is compatible with mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link jQuery minified and own javascript file -->
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" scr="js/custom.js"></script>
   </head>
 <!-- BODY -->
   <body>
@@ -39,13 +58,16 @@
               role="button" aria-haspopup="true"
               aria-expanded="false">Beyoncé <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">Her Life</a></li>
+                <li><a href="#">Her Releases</a></li>
+                <li><a href="#">Her Performances</a></li>
+                <!-- <li role="separator" class="divider"></li> -->
+                <h6 class="dropdown-header">Her Social Media</h6>
+                <button id="instagram">Instagram</button>
+                <button id="facebook">Facebook</button>
+                <button id="twitter">Twitter</button>
+                <button id="tumblr">Tumblr</button>
+                <!-- <li><a href="#">Instagram Facebook Twitter Tumblr</a></li> -->
               </ul>
             </li>
             <!-- BeyHive dropdown -->
@@ -57,8 +79,6 @@
                 <li><a href="#">Forums</a></li>
                 <li><a href="#">Fan Art</a></li>
                 <li><a href="#">Fan Merchandise</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
               </ul>
             </li>
             <!-- Watch dropdown -->
@@ -70,12 +90,10 @@
                 <li><a href="#">Music Videos</a></li>
                 <li><a href="#">Performances</a></li>
                 <li><a href="#">Fan Videos</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
               </ul>
             </li>
             <!-- Shop link -->
-            <li class="active"><a href="#">Shop <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Shop <span class="sr-only">(current)</span></a></li>
             <!-- <li><a href="#">Link</a></li> etc -->
           </ul>
 
@@ -101,6 +119,10 @@
       <p>Here you can learn more about the First Lady of Music,
         Beyoncé Knowles-Carter, as well as browse through BeyHive favourites
         and connect with fellow stans!</p>
+
+        <button id="btn">Click</button>
+
+
   </body>
   <!-- END -->
 </html>
