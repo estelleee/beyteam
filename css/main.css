@@ -1,16 +1,25 @@
 /* to stop navbar from overlapping onto header */
 body {
-  padding-top: 30px;
+  padding-top: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+body, html {
+    height: 100%;
 }
 
 .jumbotron {
   position: relative;
-  background-image: url(../images/lemonade.png);
+  /* background image */
+  background-image: url(../images/love-drought.jpg);
+  /* full height */
+  height: 100%;
+  /* size ans scale image */
   background-size: cover;
-  min-height: 500px;
+  background-position: center;
+
   color: white;
-  font-family: Helvetica;
-  font-weight: bold;
 }
 
 .container {
@@ -18,4 +27,52 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.social-icons-navbar {
+  padding-left: 10px;
+}
+
+.social-icons-navbar a {
+    color: #000;
+    display: inline;
+}
+
+.social-icons a {
+    color: #fff;
+    display: inline;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    /*transition: .5s;*/
+}
+
+.fa-twitter{
+    padding:10px 12px;
+    /*transition: .5s;*/
+}
+
+.fa-instagram {
+    padding:10px 12px;
+    /*transition: .5s;*/
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+    border-radius: 50%;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+    border-radius: 50%;
+}
+
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+    border-radius: 50%;
 }

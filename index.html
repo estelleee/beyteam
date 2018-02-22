@@ -3,34 +3,38 @@
 <!-- HEADER -->
   <head>
     <title>The BeyHive</title>
-    <!-- link Bootstrap -->
+    <!-- add Bootstrap -->
     <link href='css/bootstrap.min.css' rel='stylesheet'>
-    <!-- link CSS file -->
+    <!-- add CSS file -->
     <link href='css/main.css' rel='stylesheet'>
     <!-- make sure website is compatible with mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- link jQuery minified and own javascript file -->
+    <!-- add jQuery minified and own javascript file -->
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <!-- add bootsrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"></script>
 
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
 
     <script type="text/javascript" scr="js/custom.js"></script>
+    <!-- add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 <!-- BODY -->
   <body>
+
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -63,10 +67,11 @@
                 <li><a href="#">Her Performances</a></li>
                 <!-- <li role="separator" class="divider"></li> -->
                 <h6 class="dropdown-header">Her Social Media</h6>
-                <button id="instagram">Instagram</button>
-                <button id="facebook">Facebook</button>
-                <button id="twitter">Twitter</button>
-                <button id="tumblr">Tumblr</button>
+                <div class="social-icons-navbar">
+                  <a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                  <a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a>
+                  <a href="#" class="social-icon"> <i class="fa fa-instagram"></i></a>
+                </div>
                 <!-- <li><a href="#">Instagram Facebook Twitter Tumblr</a></li> -->
               </ul>
             </li>
@@ -109,20 +114,23 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-<div class="jumbotron">
-  <div class='container'>
-    <h1 class='text-center'>THE BEYHIVE</h1>
-  </div>
-</div>
+    <div class="jumbotron">
+      <div class='container'>
+        <h1 class='text-center'>THE BEYHIVE</h1>
 
-    <h2>Welcome to the home of all things Beyoncé!</h2>
-      <p>Here you can learn more about the First Lady of Music,
-        Beyoncé Knowles-Carter, as well as browse through BeyHive favourites
-        and connect with fellow stans!</p>
+        <h2 class='text-center'>Welcome to the home of all things Beyoncé!</h2>
+          <p class='text-center'>Here you can learn more about the First Lady of Music,
+            Beyoncé Knowles-Carter, as well as browse through BeyHive favourites
+            and connect with fellow stans!</p>
 
-        <button id="btn">Click</button>
-
-
+        <p>Follow us on</p>
+          <div class="social-icons">
+                <a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                <a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a>
+                <a href="#" class="social-icon"> <i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
-  <!-- END -->
 </html>
