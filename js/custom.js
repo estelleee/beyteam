@@ -5,5 +5,3 @@
 });*/
 
 // console.log('...');
-
-$('.dropdown-toggle').dropdown()
