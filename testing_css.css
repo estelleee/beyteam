@@ -1,0 +1,106 @@
+@media (max-width: 1023px)
+.layout_header-perspective {
+    height: 60px;
+}
+.layout_header-perspective {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+
+.layout_header-perspective .layout_header {
+    transform-origin: top;
+}
+.layout_header {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(32,14,17,.15);
+    color: #200e11;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1023px)
+.layout_header .header-inner {
+    padding-right: 0;
+}
+
+.layout_header .header-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.max-w, .max-w-wide {
+    margin-right: auto;
+    margin-left: auto;
+}
+.max-w-wide {
+    max-width: 1350px;
+}
+.gutter {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+
+.layout_header .left {
+    text-align: left;
+}
+
+.layout_header .center {
+    text-align: center;
+}
+
+@media (max-width: 1023px)
+.layout_header .desktop {
+    display: none!important;
+}
+
+
+@media (max-width: 1023px)
+.layout_header .hamburger .bkgd {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 14px 5px rgba(0,0,0,.04);
+    transition: background .3s,opacity .3s,transform .6s cubic-bezier(.165,.84,.44,1);
+}
+
+
+
+@media (max-width: 1023px)
+.layout_header .hamburger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #200e11;
+    transition: background .6s
+      cubic-bezier(.165,.84,.44,1),transform .6s
+      cubic-bezier(.165,.84,.44,1),top .6s
+      cubic-bezier(.165,.84,.44,1),opacity .3s;
+    position: relative;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+@media (max-width: 1023px)
+.layout_header .hamburger .label {
+    font-family: greycliff-demibold;
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: -4px;
+    transition: transform .4s,opacity .4s;
+    position: relative;
+}
