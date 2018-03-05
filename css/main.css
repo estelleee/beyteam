@@ -1,5 +1,6 @@
 body {
   padding-top: 80px;
+  color: black;
 }
 
 /******************************************************************************/
@@ -10,17 +11,14 @@ body {
     height: 80px;
 }
 
-.navbar-header {
+.navbar-brand, .navbar-header{
   height: 80px;
 }
 
 .navbar-toggle {
-  margin-top: 17px;
-  margin-bottom: 17px;
-}
-
-.navbar-brand {
-  padding-top: 15px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-right: 0px;
 }
 
 .navbar .navbar-header .icon-bar {
@@ -31,7 +29,7 @@ body {
 
 .navbar .navbar-header .menu-label {
   color: black;
-font-weight: 400;
+  font-weight: 600;
   font-size: 8px;
   letter-spacing: .7px;
   text-transform: uppercase;
@@ -49,9 +47,44 @@ font-weight: 400;
   transform: translate(-50%);
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  border-radius: 0px;
+  width
+}
+
+.navbar-default .navbar-nav li a {
+  color:#000;
+  font-size: 13px; /*original is 14px*/
+  font-weight: 440;
+  padding-right: 40px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color:#c8a966
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color:#c8a966;
+  border-radius: 0px;
+  height: 80px;
+  width: 80px;
+  margin-top: 0px;
+}
+
+.navbar-toggle {
+  border: none;
+  padding-right: 26.445px;
+  padding-left: 26.445px;
+  /*margin-top: 8;
+  margin-bottom: 8;
+  margin-right: 15px;*/
+}
 /*.navbar {
   font-size: 18px;
 }*/
+.navbar-form {
+  padding-top: 15px;
+}
 
 /******************************************************************************/
 
@@ -93,7 +126,7 @@ border-top: 200px;
 
 
 .social-icons a {
-    color: #fff;
+    color: #000;
     display: inline;
 }
 
@@ -114,15 +147,27 @@ border-top: 200px;
 
 .fa-facebook:hover {
     background-color: #3b5998;
+    color: white;
     border-radius: 50%;
 }
 
 .fa-twitter:hover {
     background-color: #00aced;
+    color: white;
     border-radius: 50%;
 }
 
 .fa-instagram:hover {
     background-color: #bc2a8d;
+    color: white;
     border-radius: 50%;
 }
+
+/*.navbar-default .navbar-text{color:#777}
+.navbar-default .navbar-nav>li>a{color:#777}
+.navbar-nav .open .dropdown-menu>li>a{color:#777}
+.navbar-default .navbar-nav>li>a:hover{color:#333;
+
+
+
+  .navbar-default .navbar-toggle:hover{background-color:#ddd}*/
